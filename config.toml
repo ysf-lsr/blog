@@ -7,7 +7,7 @@ disableKinds = ["RSS"]
 summarylength = 40
 HasCJKLanguage = true
 canonifyurls = true
-publishDir = "public"
+publishDir = "docs"
 # enableGitInfo = true
 
 [minify]
