@@ -1,0 +1,73 @@
+baseURL = "https://ysfjh-lsr.github.io/blog/"
+languageCode = "ja"
+title = "Light Side Robotics"
+theme = "PaperMod"
+# googleAnalytics = "UA-123-45"
+disableKinds = ["RSS"]
+summarylength = 40
+HasCJKLanguage = true
+# enableGitInfo = true
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+title = "Light Side Robotics"
+DateFormat = "2006/1/2"
+description = "Light Side Robotics description"
+author = "LSR"
+images = [ "<link or path of image for opengraph, twitter-cards>" ]
+defaultTheme = "light"
+disableThemeToggle = true
+# ShowShareButtons = true
+ShowPostNavLinks = true
+# ShowBreadCrumbs = true
+disableScrollToTop = false
+
+	[params.assets]
+	disableHLJS = true
+	favicon = "<link / abs url>"
+	favicon16x16 = "<link / abs url>"
+	favicon32x32 = "<link / abs url>"
+	apple_touch_icon = "<link / abs url>"
+	safari_pinned_tab = "<link / abs url>"
+
+	[params.label]
+	text = "LSR"
+	# icon = "/image/apple-touch-icon.jpeg"
+
+	[params.homeInfoParams]
+	Title = "YSFJH Light Side Robotics"
+
+	# [params.analytics.google]
+	# SiteVerificationTag = "XYZabc"
+
+	# [params.cover]
+	# hidden = true
+	# hiddenInList = true
+	# hiddenInSingle = true
+
+	[params.fuseOpts]
+	isCaseSensitive = false
+	shouldSort = true
+	location = 0
+	distance = 1_000
+	threshold = 0.4
+	minMatchCharLength = 0
+	keys = ["title", "permalink", "summary", "content"]
+
+[[menu.main]]
+name = "ABOUT"
+url = "/about/"
+weight = 1
+
+[[menu.main]]
+name = "PRIZES"
+url = "/prizes/"
+weight = 2
+
+[[menu.main]]
+name = "BLOG"
+url = "/posts/"
+weight = 3
