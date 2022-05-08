@@ -1,5 +1,5 @@
 ---
-title: "Second"
+title: "2個目"
 date: 2022-05-07T16:23:58+09:00
 draft: false
 ---
