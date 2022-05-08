@@ -8,7 +8,7 @@ summarylength = 40
 HasCJKLanguage = true
 canonifyurls = true
 publishDir = "docs"
-# enableGitInfo = true
+enableGitInfo = true
 
 [minify]
 disableXML = true
