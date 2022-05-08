@@ -6,6 +6,8 @@ theme = "PaperMod"
 disableKinds = ["RSS"]
 summarylength = 40
 HasCJKLanguage = true
+canonifyurls = true
+publishDir = "docs"
 # enableGitInfo = true
 
 [minify]
