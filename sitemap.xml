@@ -2,41 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ysfjh-lsr.github.io/blog/</loc>
+    <loc>https://ysf-lsr.github.io/blog/</loc>
+    <lastmod>2022-05-12T22:43:14+09:00</lastmod>
+  </url><url>
+    <loc>https://ysf-lsr.github.io/blog/posts/test5/</loc>
     <lastmod>2022-05-11T20:42:29+09:00</lastmod>
   </url><url>
-    <loc>https://ysfjh-lsr.github.io/blog/posts/test5/</loc>
-    <lastmod>2022-05-11T20:42:29+09:00</lastmod>
-  </url><url>
-    <loc>https://ysfjh-lsr.github.io/blog/posts/test4/</loc>
+    <loc>https://ysf-lsr.github.io/blog/posts/test4/</loc>
     <lastmod>2022-05-10T20:46:22+09:00</lastmod>
   </url><url>
-    <loc>https://ysfjh-lsr.github.io/blog/posts/test3/</loc>
+    <loc>https://ysf-lsr.github.io/blog/posts/test3/</loc>
     <lastmod>2022-05-10T19:36:33+09:00</lastmod>
   </url><url>
-    <loc>https://ysfjh-lsr.github.io/blog/posts/test2/</loc>
+    <loc>https://ysf-lsr.github.io/blog/posts/test2/</loc>
     <lastmod>2022-05-08T22:37:52+09:00</lastmod>
   </url><url>
-    <loc>https://ysfjh-lsr.github.io/blog/posts/hoge/</loc>
+    <loc>https://ysf-lsr.github.io/blog/posts/hoge/</loc>
     <lastmod>2022-05-08T15:55:38+09:00</lastmod>
   </url><url>
-    <loc>https://ysfjh-lsr.github.io/blog/posts/second/</loc>
+    <loc>https://ysf-lsr.github.io/blog/posts/second/</loc>
     <lastmod>2022-05-08T13:52:22+09:00</lastmod>
   </url><url>
-    <loc>https://ysfjh-lsr.github.io/blog/posts/first/</loc>
+    <loc>https://ysf-lsr.github.io/blog/posts/first/</loc>
     <lastmod>2022-05-08T11:51:34+09:00</lastmod>
   </url><url>
-    <loc>https://ysfjh-lsr.github.io/blog/about/</loc>
+    <loc>https://ysf-lsr.github.io/blog/about/</loc>
+    <lastmod>2022-05-12T22:43:14+09:00</lastmod>
+  </url><url>
+    <loc>https://ysf-lsr.github.io/blog/posts/</loc>
     <lastmod>2022-05-08T11:51:34+09:00</lastmod>
   </url><url>
-    <loc>https://ysfjh-lsr.github.io/blog/posts/</loc>
-    <lastmod>2022-05-08T11:51:34+09:00</lastmod>
+    <loc>https://ysf-lsr.github.io/blog/categories/</loc>
   </url><url>
-    <loc>https://ysfjh-lsr.github.io/blog/categories/</loc>
+    <loc>https://ysf-lsr.github.io/blog/prizes/</loc>
+    <lastmod>2022-05-12T22:43:14+09:00</lastmod>
   </url><url>
-    <loc>https://ysfjh-lsr.github.io/blog/prizes/</loc>
-    <lastmod>2022-05-08T11:51:34+09:00</lastmod>
-  </url><url>
-    <loc>https://ysfjh-lsr.github.io/blog/tags/</loc>
+    <loc>https://ysf-lsr.github.io/blog/tags/</loc>
   </url>
 </urlset>
