@@ -1,12 +1,18 @@
 {{- define "main" }}
 
 <div id="topView">
-	YSFJH <br>Light Side Robotics
+	YSF <br>Light Side Robotics
 </div>
 <div id="about">
-	<img src="{{ site.BaseURL }}image/top2.jpg" alt="LSRのメンバー">
-	LSRは、横浜市立横浜サイエンスフロンティア高等学校附属中学校所属のチームです。
+	<img src="{{ site.BaseURL }}image/prize.jpg" alt="FIRST LEGO LEAGEのトロフィー">
+	<p>私たちLSRは、横浜市立横浜サイエンスフロンティア高等学校・附属中学校 ロボット探究部所属のチームです。</p>
 </div>
+<header class="page-header">
+	<h1>BLOG</h1>
+	<div class="post-description">
+		ブログ
+	</div>
+</header>
 {{ range first 5 .Site.RegularPages.ByDate.Reverse }}
 	<article class="post-entry">
 		{{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
@@ -30,5 +36,16 @@
 		<a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 	</article>
 {{ end }}
+<p id="readmore"><a href="{{ site.BaseURL }}/posts/">もっと読む</a></p>
+<header class="page-header">
+	<h1>SNS</h1>
+	<div class="post-description">
+		TwitterとFacebook
+	</div>
+</header>
+<div id="sns">
+	<a class="twitter-timeline" data-lang="ja" data-height="600" href="https://twitter.com/YSFH_LSR?ref_src=twsrc%5Etfw">Tweets by YSFH_LSR</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLight-Side-Robotics-115384181145744&tabs=timeline&width=340&height=600&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="340" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+</div>
 
 {{- end }}

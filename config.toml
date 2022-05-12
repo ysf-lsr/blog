@@ -1,4 +1,4 @@
-baseURL = "https://ysfjh-lsr.github.io/blog/"
+baseURL = "https://ysf-lsr.github.io/blog/"
 languageCode = "ja"
 title = "Light Side Robotics"
 theme = "PaperMod"
@@ -40,7 +40,7 @@ disableScrollToTop = false
 	# icon = "/image/apple-touch-icon.jpeg"
 
 	[params.homeInfoParams]
-	Title = "YSFJH Light Side Robotics"
+	Title = "YSF Light Side Robotics"
 
 	# [params.analytics.google]
 	# SiteVerificationTag = "XYZabc"
