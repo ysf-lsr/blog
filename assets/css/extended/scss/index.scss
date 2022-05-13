@@ -76,10 +76,20 @@
 #sns {
 	display: flex;
 	justify-content: space-between;
+	@media (max-width: 600px) {
+		flex-direction: column;
+	}
 	* {
 		width: 50% !important;
 		&:first-of-type {
 			margin-right: 16px !important;
+		}
+		@media (max-width: 600px) {
+			width: 100% !important;
+			&:first-of-type {
+				margin-right: 0px !important;
+				margin-bottom: 36px !important;
+			}
 		}
 	}
 }
