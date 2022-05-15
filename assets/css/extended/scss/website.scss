@@ -1,12 +1,18 @@
-@import "var";
+@import "../../../../static/css/scss/var";
 
 body {
 	padding: 0;
 	font: 16px/1.8 $sansSerif, sans-serif;
 }
 
+.nav {
+	margin: 0 var(--gap);
+	max-width: unset;
+}
+
 .main {
 	margin-top: 60px !important;
+	padding: calc(var(--gap) * 2);
 }
 
 .header {
@@ -18,14 +24,36 @@ body {
 	z-index: 3;
 	.logo {
 		font-family: $logoFont;
-		* {
-			color: $themeColor;
+		padding-top: 5px;
+		a {
+			color: $themeColor !important;
 		}
 	}
 }
 
 .page-header {
+	// text-align: center;
+	margin: 24px 0 var(--content-gap) 0;
+}
+
+.blockLink:not(a) {
 	text-align: center;
+}
+a.blockLink, .blockLink a {
+	margin: 24px 0;
+	display: inline-block;
+	padding: 16px 24px;
+	border: 1px solid $themeColor;
+	border-radius: 40px;
+	transition: all 0.3s;
+	&:hover {
+		background: $themeColor;
+		color: white;
+	}
+	&::after {
+		content: "→";
+		margin-left: 0.5em;
+	}
 }
 
 #prizeImg1 {

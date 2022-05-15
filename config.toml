@@ -1,25 +1,25 @@
 baseURL = "https://ysf-lsr.github.io/blog/"
-languageCode = "ja"
-title = "Light Side Robotics"
+title = "YSF Light Side Robotics"
 theme = "PaperMod"
 # googleAnalytics = "UA-123-45"
 disableKinds = ["RSS"]
-summarylength = 40
+summarylength = 80
 HasCJKLanguage = true
 canonifyurls = true
 publishDir = "docs"
 enableGitInfo = true
+DefaultContentLanguage = "ja"
 
 [minify]
 disableXML = true
 minifyOutput = true
 
 [params]
-title = "Light Side Robotics"
+title = "YSF Light Side Robotics"
 DateFormat = "2006/1/2"
-description = "Light Side Robotics description"
-author = "LSR"
+description = "私たちLSRは、横浜市立横浜サイエンスフロンティア高等学校・附属中学校 ロボット探究部所属のチームです。"
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
+env = "production"
 defaultTheme = "light"
 disableThemeToggle = true
 # ShowShareButtons = true
@@ -29,15 +29,15 @@ disableScrollToTop = false
 
 	[params.assets]
 	disableHLJS = true
-	favicon = "<link / abs url>"
-	favicon16x16 = "<link / abs url>"
-	favicon32x32 = "<link / abs url>"
-	apple_touch_icon = "<link / abs url>"
-	safari_pinned_tab = "<link / abs url>"
+	favicon = "apple-touch-icon.png"
+	favicon16x16 = "apple-touch-icon.png"
+	favicon32x32 = "apple-touch-icon.png"
+	apple_touch_icon = "apple-touch-icon.png"
+	theme_color = "#f80015"
 
 	[params.label]
-	text = "LSR"
-	# icon = "/image/apple-touch-icon.jpeg"
+	text = "YSF LSR"
+	# icon = "image/logo.svg"
 
 	[params.homeInfoParams]
 	Title = "YSF Light Side Robotics"

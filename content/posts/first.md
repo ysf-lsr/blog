@@ -15,4 +15,4 @@ draft: false
 
 この項目をTrueにする必要がある。
 
-![LSRのメンバー]({{< baseurl >}}image/top2.jpg "LSRのメンバー")
+![トロフィー]({{< baseurl >}}image/prize.jpg "トロフィー")

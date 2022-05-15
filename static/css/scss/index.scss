@@ -1,0 +1,88 @@
+@import "var";
+
+#topView {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: -60px;
+	padding: calc(var(--gap) * 2);
+	font: 600 80px/1.3 $logoFont;
+	display: grid;
+	@media (max-width: 1100px) {
+		font-size: 60px;
+	}
+	@media (max-width: 799px) {
+		padding-bottom: 15vh;
+		align-items: end;
+		font-size: 9vw;
+	}
+	@media (min-width: 800px) {
+		justify-items: center;
+		align-items: center;
+		br {
+			display: none;
+		}
+	}
+	@function myGradation($x) {
+		@return -1 / 250 * ($x * $x * $x * $x / 4 - 10 * $x * $x * $x + 100 * $x * $x) + 10;
+	}
+	@for $i from 1 through 20 {
+		#title span:nth-of-type(#{$i}) {
+			color: adjust-hue(lighten($themeColor, myGradation($i) * 2), myGradation($i));
+		}
+	}
+	@media (min-width: 800px) {
+		& + * {
+			margin-top: 0;
+		}
+	}
+}
+
+main.main {
+	max-width: unset;
+}
+
+section {
+	margin: 320px 0;
+}
+
+.gridSect .page-main {
+	display: grid;
+	grid-template-columns: 40% 1fr;
+	@media (max-width: 700px) {
+		grid-template-columns: 1fr;
+		img {
+			order: 2;
+		}
+		.text {
+			order: 1;
+			p {
+				font-size: 32px;
+			}
+		}
+	}
+	column-gap: 40px;
+	.text {
+		align-self: center;
+		p {
+			font-size: 32px;
+			@media (max-width: 800px) {
+				font-size: 20px;
+			}
+		}
+	}
+}
+
+#sns {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 40px;
+	@media (min-width: 1155px) {
+		grid-template-columns: 1fr 500px;
+	}
+	@media (max-width: 550px) {
+		grid-template-columns: 1fr;
+	}
+}
