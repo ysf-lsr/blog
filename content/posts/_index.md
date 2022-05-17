@@ -4,4 +4,4 @@ description: "LSRブログ"
 draft: false
 ---
 
-こんなことしてます。
+こんなことをしています。
