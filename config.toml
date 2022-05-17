@@ -3,7 +3,7 @@ title = "YSF Light Side Robotics"
 theme = "PaperMod"
 # googleAnalytics = "UA-123-45"
 disableKinds = ["RSS"]
-summarylength = 80
+summarylength = 100
 HasCJKLanguage = true
 canonifyurls = true
 publishDir = "docs"
@@ -14,11 +14,14 @@ DefaultContentLanguage = "ja"
 disableXML = true
 minifyOutput = true
 
+[social]
+twitter = "YSFJH_LSRJ"
+
 [params]
 title = "YSF Light Side Robotics"
 DateFormat = "2006/1/2"
-description = "私たちLSRは、横浜市立横浜サイエンスフロンティア高等学校・附属中学校 ロボット探究部所属のチームです。"
-images = [ "<link or path of image for opengraph, twitter-cards>" ]
+description = "私たちLSRは、横浜市立横浜サイエンスフロンティア高等学校・附属中学校ロボット探究部所属のチームです。"
+images = ["image/ogp.png"]
 env = "production"
 defaultTheme = "light"
 disableThemeToggle = true
@@ -29,15 +32,14 @@ disableScrollToTop = false
 
 	[params.assets]
 	disableHLJS = true
-	favicon = "apple-touch-icon.png"
-	favicon16x16 = "apple-touch-icon.png"
-	favicon32x32 = "apple-touch-icon.png"
+	favicon = "favicon.ico"
+	favicon16x16 = "favicon.ico"
+	favicon32x32 = "favicon.ico"
 	apple_touch_icon = "apple-touch-icon.png"
 	theme_color = "#f80015"
 
 	[params.label]
 	text = "YSF LSR"
-	# icon = "image/logo.svg"
 
 	[params.homeInfoParams]
 	Title = "YSF Light Side Robotics"
