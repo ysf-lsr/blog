@@ -8,4 +8,4 @@ draft: false
 
 全国では680点取る事が出来ませんでした..　世界では満点取ってみせる！
 
-![トロフィー]({{< baseurl >}}image/prize.jpg "トロフィー")
+![トロフィー]({{< baseurl >}}image/prize.jpg)
