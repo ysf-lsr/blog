@@ -89,9 +89,10 @@ video {
 	height: 80%;
 	font-size: 160px;
 	font-weight: 700;
+	padding: calc(var(--gap) * 2);
 	h1 {
 		font-size: 1em;
-		margin: 0;
+		// margin: 0;
 	}
 	span {
 		font-size: 32px;
