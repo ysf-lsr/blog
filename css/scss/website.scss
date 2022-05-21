@@ -40,6 +40,18 @@ body {
 	margin: 24px 0 var(--content-gap) 0;
 }
 
+.post-content {
+	h2::before {
+		content: "";
+		display: block;
+		margin-top: -100px;
+		padding-top: 100px;
+	}
+	a:not(.blockLink) {
+		color: $themeColor;
+	}
+}
+
 .blockLink {
 	margin: 24px 0;
 	display: inline-block;
