@@ -6,6 +6,11 @@ draft: false
 
 FLL2021-2022の全国大会で決まった「[Razorback Open Invitational](https://fllrazorback.com)」への出場。大会本番についてタイムライン形式でお伝えします。
 
+## 結果発表
+5/28 13:46  
+ロボットゲーム5位🎊でした！
+![トロフィーの写真](image/trophy.jpeg)
+
 ## 655点
 5/21 18:25（現地時間）  
 680点中655点！遂に600点台2回目です。  
